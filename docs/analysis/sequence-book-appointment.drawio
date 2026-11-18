@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-18T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="Sequence - клиентті жазу" name="Sequence - клиентті жазу">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1560" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="SEQUENCE  /  Клиентті қызметке жазу" style="text;html=1;align=left;fontSize=34;fontStyle=1;fontColor=%23183044;" vertex="1" parent="1">
+          <mxGeometry x="65" y="18" width="1100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Ұсыныстарды есептеу және уақытты атомарлы брондау" style="text;html=1;align=left;fontSize=21;fontColor=%2352677a;" vertex="1" parent="1">
+          <mxGeometry x="65" y="62" width="1100" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Клиент" style="shape=umlActor;html=1;strokeColor=%23183044;fillColor=%23ffffff;fontColor=%23183044;fontSize=22;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="85" y="110" width="90" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="234" as="sourcePoint" />
+            <mxPoint x="130" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="Веб-интерфейс" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=%23eaf2ff;strokeColor=%230b817e;strokeWidth=3;fontColor=%23183044;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="115" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="234" as="sourcePoint" />
+            <mxPoint x="445" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Жазылу сервисі" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=%23eaf2ff;strokeColor=%230b817e;strokeWidth=3;fontColor=%23183044;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="632" y="115" width="255" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="234" as="sourcePoint" />
+            <mxPoint x="760" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="ML ұсыныс сервисі" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=%23eaf7f5;strokeColor=%230b817e;strokeWidth=3;fontColor=%23183044;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="947" y="115" width="255" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="234" as="sourcePoint" />
+            <mxPoint x="1075" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Дерекқор" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=%23eaf7f5;strokeColor=%230b817e;strokeWidth=3;fontColor=%23183044;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="115" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="234" as="sourcePoint" />
+            <mxPoint x="1390" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Хабарлама сервисі" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=%23eaf7f5;strokeColor=%230b817e;strokeWidth=3;fontColor=%23183044;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="115" width="255" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1705" y="234" as="sourcePoint" />
+            <mxPoint x="1705" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="alt  [уақыт бос]" style="rounded=1;arcSize=1;html=1;fillColor=none;strokeColor=%230b817e;strokeWidth=3;align=left;verticalAlign=top;spacingLeft=18;spacingTop=6;fontSize=23;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="925" width="1777" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=none;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="1240" as="sourcePoint" />
+            <mxPoint x="1835" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="[уақыт бос емес]" style="text;html=1;align=left;fillColor=%23ffffff;fontSize=21;fontStyle=1;fontColor=%23183044;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1244" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Қызмет пен қалауды енгізу" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="275" as="sourcePoint" />
+            <mxPoint x="445" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="recommend(service, preferences)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="335" as="sourcePoint" />
+            <mxPoint x="760" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="getCatalogHistoryAndSlots()" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="395" as="sourcePoint" />
+            <mxPoint x="1390" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="қызметтер, тарих, бос уақыттар" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="455" as="sourcePoint" />
+            <mxPoint x="760" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="rankOptions(history, slots)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="515" as="sourcePoint" />
+            <mxPoint x="1075" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="реттелген ұсыныстар" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="575" as="sourcePoint" />
+            <mxPoint x="760" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="ұсыныстар тізімі" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="635" as="sourcePoint" />
+            <mxPoint x="445" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Ұсыныстарды көрсету" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="695" as="sourcePoint" />
+            <mxPoint x="130" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Маман мен уақытты таңдау" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="755" as="sourcePoint" />
+            <mxPoint x="445" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="createBooking(client, slot)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="815" as="sourcePoint" />
+            <mxPoint x="760" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="reserveAndCreateBooking()" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="875" as="sourcePoint" />
+            <mxPoint x="1390" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="bookingId" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="985" as="sourcePoint" />
+            <mxPoint x="760" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="sendConfirmation(bookingId)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1040" as="sourcePoint" />
+            <mxPoint x="1705" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="жіберілді" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1705" y="1095" as="sourcePoint" />
+            <mxPoint x="760" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="bookingConfirmed(bookingId)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1150" as="sourcePoint" />
+            <mxPoint x="445" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="Растауды көрсету" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="1205" as="sourcePoint" />
+            <mxPoint x="130" y="1205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="slotUnavailable" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="1290" as="sourcePoint" />
+            <mxPoint x="760" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="findAlternativeSlots()" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=block;endFill=1;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1335" as="sourcePoint" />
+            <mxPoint x="1390" y="1335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="балама уақыттар" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="1380" as="sourcePoint" />
+            <mxPoint x="760" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="alternativeRequired(slots)" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1425" as="sourcePoint" />
+            <mxPoint x="445" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="Баламаларды көрсету" style="edgeStyle=none;html=1;strokeColor=%23183044;strokeWidth=3;endArrow=open;endFill=0;fontSize=22;fontColor=%23183044;labelBackgroundColor=%23ffffff;dashed=1;dashPattern=7 5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="1470" as="sourcePoint" />
+            <mxPoint x="130" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
